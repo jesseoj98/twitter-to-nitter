@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Twitter to Nitter",
+  "version": "1.0",
+
+  "description": "Redirects all Twitter URLs entered into the browser into Nitter URLs.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["twitter-to-nitter.js"]
+    }
+  ],
+  
+  "icons": {
+    "48": "icons/border-48.png"
+  }
+
+}
