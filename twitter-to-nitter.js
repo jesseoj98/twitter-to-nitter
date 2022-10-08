@@ -1,0 +1,1 @@
+window.location.assign(window.location.href.includes("mobile.twitter.com") ? window.location.href.replace("mobile.twitter.com", "nitter.net") : window.location.href.replace("twitter.com", "nitter.net"));
