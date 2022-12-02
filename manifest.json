@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Twitter to Nitter",
-  "version": "1.0",
+  "version": "2.0",
 
   "description": "Redirects all Twitter URLs entered into the browser into Nitter URLs.",
 
